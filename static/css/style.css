@@ -1,0 +1,50 @@
+.row{
+    margin-bottom: 50px !important;
+}
+
+.col{
+    margin-bottom: 20px !important;
+    margin-top: 20px;
+}
+.card {
+    width: 190px;
+    height: 250px;
+    border-radius: 30px !important;
+    background: #e0e0e0 !important;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff !important;
+  }
+/* From Uiverse.io by Juanes200122 */ 
+body {
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    background-color: #ffffff !important;
+    background-image: radial-gradient(rgba(12, 12, 12, 0.171) 2px, transparent 0) !important;
+    background-size: 30px 30px !important;
+    background-position: -5px -5px !important;
+  }
+  .stock_title{
+    text-align: center;
+    font-size: 75px;
+  }
+  .stock_name{
+    text-align: center;
+    font-size: 50px;
+  }
+  .classification{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .submit_button{
+    position: relative;
+  }
+  .input_stock{
+    margin-right: 20px;
+    width: 90%;
+    float: right;
+  }
+  .navbar-brand{
+    margin-left: 20px !important;
+  }

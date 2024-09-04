@@ -1,0 +1,110 @@
+{% from "bootstrap5/form.html" import render_form %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%if stock_input == '':%}
+    <title>Dividend Statistics</title>
+    {%else:%}
+    <title>{{stock_input}} - Dividend</title>
+    {%endif%}
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Dividend Statistics</span>
+            {{ ckeditor.load() }}
+            {{ ckeditor.config(name='body') }}
+            {{ render_form(form, novalidate=True, button_map={"submit": "primary"})}}
+      </nav>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="static/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="stock_title">{{stock_input}}</h1>
+    {%if stock_input != 'SYMBOL NOT FOUND':%}
+    <h2 class="stock_name">{{companyName}}</h2>
+    <h3 class="classification">{{sectorname}}</h3>
+    <div class="container text-center">
+        <div class="row row-cols-auto">
+          <div class="col d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Dividend Yield Forward</h5>
+                  <h4 class="card-subtitle mb-2 text-body-secondary">{{divYieldFwd}}</h4>
+                  <p class="card-text">SA forward dividend yield is an estimation of a year's dividend expressed as a percentage of the current stock price.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Dividend Yield Trailing Twelve Month</h5>
+                  <h4 class="card-subtitle mb-2 text-body-secondary">{{divYieldTtm}}</h4>
+                  <p class="card-text">A trailing twelve month dividend yield, includes all dividends paid during the past year in order to calculate the dividend yield.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Payout Ratio</h5>
+                  <h4 class="card-subtitle mb-2 text-body-secondary">{{payoutRatio}}</h4>
+                  <p class="card-text">Shows the proportion of earnings a company pays its shareholders in the form of dividends.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Dividend Growth</h5>
+                  <h4 class="card-subtitle mb-2 text-body-secondary">{{dividendGrowth}}</h4>
+                  <p class="card-text">Years of consecutive growth.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Leveraged Cash Flow YoY</h5>
+                  <h4 class="card-subtitle mb-2 text-body-secondary">{{leveredFreeCashFlowYoy}}</h4>
+                  <p class="card-text">The amount of money that a company has left remaining after paying all of its financial obligations.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Long Term Debt/Equity Ratio</h5>
+                  <h4 class="card-subtitle mb-2 text-body-secondary">{{ltDebtEquity}}</h4>
+                  <p class="card-text">Shows how much of a business' assets are financed by long-term financial obligations, such as loans.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Estimated Earning per Share</h5>
+                  <h4 class="card-subtitle mb-2 text-body-secondary">{{estimateEps}}</h4>
+                  <p class="card-text">Measure of a company's profitability that indicates how much profit each outstanding share of common stock has earned.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Annual Dividend </h5>
+                  <h4 class="card-subtitle mb-2 text-body-secondary">{{divRate}}</h4>
+                  <p class="card-text">Annual dividend payout.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      {%else:%}
+      <h2 class="stock_name">Try Again</h2>
+      {%endif%}
+
+</body>
+</html>

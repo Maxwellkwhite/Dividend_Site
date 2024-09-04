@@ -1,0 +1,73 @@
+{"data": [
+        {"id": "25399100", "type": "dividend_history", "attributes": {"year": 2019, "amount": "0.9", "ex_date": "2019-02-25", "freq": "QUARTERLY", "declare_date": "2019-01-02", "pay_date": "2019-03-12", "record_date": "2019-02-26", "date": "2019-02-25", "adjusted_amount": 0.9, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399120", "type": "dividend_history", "attributes": {"year": 2019, "amount": "0.95", "ex_date": "2019-05-24", "freq": "QUARTERLY", "declare_date": "2019-04-25", "pay_date": "2019-06-11", "record_date": "2019-05-28", "date": "2019-05-24", "adjusted_amount": 0.95, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399140", "type": "dividend_history", "attributes": {"year": 2019, "amount": "0.95", "ex_date": "2019-08-26", "freq": "QUARTERLY", "declare_date": "2019-07-15", "pay_date": "2019-09-10", "record_date": "2019-08-27", "date": "2019-08-26", "adjusted_amount": 0.95, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399160", "type": "dividend_history", "attributes": {"year": 2019, "amount": "0.95", "ex_date": "2019-11-25", "freq": "QUARTERLY", "declare_date": "2019-10-17", "pay_date": "2019-12-10", "record_date": "2019-11-26", "date": "2019-11-25", "adjusted_amount": 0.95, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399180", "type": "dividend_history", "attributes": {"year": 2020, "amount": "0.95", "ex_date": "2020-02-24", "freq": "QUARTERLY", "declare_date": "2020-01-02", "pay_date": "2020-03-10", "record_date": "2020-02-25", "date": "2020-02-24", "adjusted_amount": 0.95, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399200", "type": "dividend_history", "attributes": {"year": 2020, "amount": "1.01", "ex_date": "2020-05-22", "freq": "QUARTERLY", "declare_date": "2020-04-14", "pay_date": "2020-06-09", "record_date": "2020-05-26", "date": "2020-05-22", "adjusted_amount": 1.01, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399220", "type": "dividend_history", "attributes": {"year": 2020, "amount": "1.01", "ex_date": "2020-08-24", "freq": "QUARTERLY", "declare_date": "2020-07-20", "pay_date": "2020-09-08", "record_date": "2020-08-25", "date": "2020-08-24", "adjusted_amount": 1.01, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399240", "type": "dividend_history", "attributes": {"year": 2020, "amount": "1.01", "ex_date": "2020-11-23", "freq": "QUARTERLY", "declare_date": "2020-10-22", "pay_date": "2020-12-08", "record_date": "2020-11-24", "date": "2020-11-23", "adjusted_amount": 1.01, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399260", "type": "dividend_history", "attributes": {"year": 2021, "amount": "1.01", "ex_date": "2021-02-22", "freq": "QUARTERLY", "declare_date": "2021-01-04", "pay_date": "2021-03-09", "record_date": "2021-02-23", "date": "2021-02-22", "adjusted_amount": 1.01, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399280", "type": "dividend_history", "attributes": {"year": 2021, "amount": "1.06", "ex_date": "2021-05-24", "freq": "QUARTERLY", "declare_date": "2021-04-20", "pay_date": "2021-06-08", "record_date": "2021-05-25", "date": "2021-05-24", "adjusted_amount": 1.06, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399300", "type": "dividend_history", "attributes": {"year": 2021, "amount": "1.06", "ex_date": "2021-08-23", "freq": "QUARTERLY", "declare_date": "2021-07-19", "pay_date": "2021-09-07", "record_date": "2021-08-24", "date": "2021-08-23", "adjusted_amount": 1.06, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399320", "type": "dividend_history", "attributes": {"year": 2021, "amount": "1.06", "ex_date": "2021-11-22", "freq": "QUARTERLY", "declare_date": "2021-10-21", "pay_date": "2021-12-07", "record_date": "2021-11-23", "date": "2021-11-22", "adjusted_amount": 1.06, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399340", "type": "dividend_history", "attributes": {"year": 2022, "amount": "1.06", "ex_date": "2022-02-18", "freq": "QUARTERLY", "declare_date": "2022-01-04", "pay_date": "2022-03-08", "record_date": "2022-02-22", "date": "2022-02-18", "adjusted_amount": 1.06, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399360", "type": "dividend_history", "attributes": {"year": 2022, "amount": "1.13", "ex_date": "2022-05-23", "freq": "QUARTERLY", "declare_date": "2022-04-19", "pay_date": "2022-06-07", "record_date": "2022-05-24", "date": "2022-05-23", "adjusted_amount": 1.13, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399380", "type": "dividend_history", "attributes": {"year": 2022, "amount": "1.13", "ex_date": "2022-08-22", "freq": "QUARTERLY", "declare_date": "2022-07-18", "pay_date": "2022-09-06", "record_date": "2022-08-23", "date": "2022-08-22", "adjusted_amount": 1.13, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399400", "type": "dividend_history", "attributes": {"year": 2022, "amount": "1.13", "ex_date": "2022-11-21", "freq": "QUARTERLY", "declare_date": "2022-10-19", "pay_date": "2022-12-06", "record_date": "2022-11-22", "date": "2022-11-21", "adjusted_amount": 1.13, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399420", "type": "dividend_history", "attributes": {"year": 2023, "amount": "1.13", "ex_date": "2023-02-17", "freq": "QUARTERLY", "declare_date": "2023-01-03", "pay_date": "2023-03-07", "record_date": "2023-02-21", "date": "2023-02-17", "adjusted_amount": 1.13, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399440", "type": "dividend_history", "attributes": {"year": 2023, "amount": "1.19", "ex_date": "2023-05-22", "freq": "QUARTERLY", "declare_date": "2023-04-18", "pay_date": "2023-06-06", "record_date": "2023-05-23", "date": "2023-05-22", "adjusted_amount": 1.19, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399460", "type": "dividend_history", "attributes": {"year": 2023, "amount": "1.19", "ex_date": "2023-08-25", "freq": "QUARTERLY", "declare_date": "2023-07-20", "pay_date": "2023-09-07", "record_date": "2023-08-28", "date": "2023-08-25", "adjusted_amount": 1.19, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399480", "type": "dividend_history", "attributes": {"year": 2023, "amount": "1.19", "ex_date": "2023-11-20", "freq": "QUARTERLY", "declare_date": "2023-10-19", "pay_date": "2023-12-05", "record_date": "2023-11-21", "date": "2023-11-20", "adjusted_amount": 1.19, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399500", "type": "dividend_history", "attributes": {"year": 2024, "amount": "1.19", "ex_date": "2024-02-16", "freq": "QUARTERLY", "declare_date": "2024-01-02", "pay_date": "2024-03-05", "record_date": "2024-02-20", "date": "2024-02-16", "adjusted_amount": 1.19, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399520", "type": "dividend_history", "attributes": {"year": 2024, "amount": "1.24", "ex_date": "2024-05-20", "freq": "QUARTERLY", "declare_date": "2024-04-16", "pay_date": "2024-06-04", "record_date": "2024-05-21", "date": "2024-05-20", "adjusted_amount": 1.24, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        },
+        {"id": "25399540", "type": "dividend_history", "attributes": {"year": 2024, "amount": "1.24", "ex_date": "2024-08-27", "freq": "QUARTERLY", "declare_date": "2024-07-17", "pay_date": "2024-09-10", "record_date": "2024-08-27", "date": "2024-08-27", "adjusted_amount": 1.24, "split_adj_factor": 1.0, "type": "Regular"
+            }
+        }
+    ], "meta": {"current_year": 2024
+    }
+}

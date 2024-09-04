@@ -1,0 +1,22 @@
+{"data": [
+        {"id": "2019", "type": "dividend_history", "attributes": {"year": 2019, "amount": "", "ex_date": "", "freq": "", "declare_date": "", "pay_date": "", "record_date": "", "date": "2019-01-01", "adjusted_amount": 3.75, "split_adj_factor": "", "type": ""
+            }
+        },
+        {"id": "2020", "type": "dividend_history", "attributes": {"year": 2020, "amount": "", "ex_date": "", "freq": "", "declare_date": "", "pay_date": "", "record_date": "", "date": "2020-01-01", "adjusted_amount": 3.98, "split_adj_factor": "", "type": ""
+            }
+        },
+        {"id": "2021", "type": "dividend_history", "attributes": {"year": 2021, "amount": "", "ex_date": "", "freq": "", "declare_date": "", "pay_date": "", "record_date": "", "date": "2021-01-01", "adjusted_amount": 4.19, "split_adj_factor": "", "type": ""
+            }
+        },
+        {"id": "2022", "type": "dividend_history", "attributes": {"year": 2022, "amount": "", "ex_date": "", "freq": "", "declare_date": "", "pay_date": "", "record_date": "", "date": "2022-01-01", "adjusted_amount": 4.449999999999999, "split_adj_factor": "", "type": ""
+            }
+        },
+        {"id": "2023", "type": "dividend_history", "attributes": {"year": 2023, "amount": "", "ex_date": "", "freq": "", "declare_date": "", "pay_date": "", "record_date": "", "date": "2023-01-01", "adjusted_amount": 4.699999999999999, "split_adj_factor": "", "type": ""
+            }
+        },
+        {"id": "2024", "type": "dividend_history", "attributes": {"year": 2024, "amount": "", "ex_date": "", "freq": "", "declare_date": "", "pay_date": "", "record_date": "", "date": "2024-01-01", "adjusted_amount": 3.67, "split_adj_factor": "", "type": ""
+            }
+        }
+    ], "meta": {"current_year": 2024
+    }
+}
